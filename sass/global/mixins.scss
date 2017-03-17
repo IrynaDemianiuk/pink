@@ -1,0 +1,19 @@
+.container {
+  width: auto;
+  margin: 0 auto;
+
+  @media @tablet-widths {
+    width: 88.5%;
+    max-width: 940px;
+    margin: 0 auto;
+  }
+}
+
+.no-outline() {
+  outline: none;
+  background: trasparent;
+
+   &::before {
+     display: none;
+   }
+}
